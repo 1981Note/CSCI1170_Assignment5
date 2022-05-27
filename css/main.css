@@ -1,0 +1,94 @@
+
+*{
+    box-sizing: border-box;
+}
+
+#table th{
+    background-color:rgba(255,182,185,1);
+    color: rgba(202,62,71,1);
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#table td{
+    background-color:rgba(250,227,217,1);
+    color: rgba(202,62,71,1);
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    width: 70vw;
+	height: 100vh;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#table {
+    background-color: rgba(187,222,214,1);
+    padding-top: 5px;
+    overflow: auto;
+    display: block;
+    
+}
+
+header {
+    background-color:rgba(138,198,209,1);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    padding: 0px 50px;
+    vertical-align: middle;
+    color: rgba(0,77,97,1);
+}
+
+
+button{
+    background-color:rgba(52,132,152,1);
+    border:1px solid rgba(0,77,97,1);
+    color: white;
+    padding: 5px;
+}
+
+input{
+    padding: 5px;
+}
+
+form{
+    padding: 50px;
+}
+
+p{
+    background-color: rgba(82,82,82,1);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 840px) {
+    header {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    header > form {
+        text-align: center;
+    }
+
+
+}
